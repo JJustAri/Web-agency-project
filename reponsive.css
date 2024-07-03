@@ -1,0 +1,76 @@
+/* HEADER */
+
+@media screen and (min-width:480px) {
+    .nav_menu {
+        display:flex;
+        justify-content: space-between;
+        width: 35%;
+    }
+
+    .nav_menu li a {
+        color: rgb(104, 104, 104);
+        font-size: 2rem;
+    }
+
+    .nav_menu li a:hover {
+        color:rgb(37, 175, 243);
+    }
+
+    .burger {
+        display: none;
+    }
+}
+
+/* SECTION HERO */
+
+@media screen and (min-width:480px) {
+    .text_img {
+        margin-left:10rem;
+    }
+
+    .mobile_nav {
+        display: none;
+    }
+
+    .slide_right, .slide_left {
+        padding: 2rem;
+        background-color: rgba(0, 0, 0, 0.397);
+        border-radius: 50%;
+    }
+
+    .slide_left {
+        position: absolute;
+        right: 30rem;
+    }
+
+    .slide_right {
+        position: absolute;
+        left:90rem;
+    }
+    
+}
+
+/* SECTION SERVICES */
+
+@media screen and (min-width:480px) {
+
+    .line_left {
+        width: 20%;
+    }
+
+    .line_right {
+        width: 20%;
+    }
+
+    .services_title_2 {
+        font-size: 4rem;
+    }
+}
+
+
+
+
+
+
+
+
