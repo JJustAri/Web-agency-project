@@ -15,7 +15,7 @@
     .nav_menu li a:hover {
         color:rgb(37, 175, 243);
     }
-
+    
     .burger {
         display: none;
     }
@@ -26,6 +26,7 @@
 @media screen and (min-width:480px) {
     .text_img {
         margin-left:10rem;
+        margin-top: 5rem;
     }
 
     .mobile_nav {
@@ -65,7 +66,41 @@
     .services_title_2 {
         font-size: 4rem;
     }
+
+    .bar_container {
+        min-width: 50%;
+    }
+
+    .services_text {
+        max-width:60%;
+    }
+
+    .services_main_content {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .img_services_container {
+        max-width: 50%;
+    }
+
+    .services_right_content {
+        max-width: 50%;
+        margin:0;
+    }
+
+    .services_text_container {
+        max-width: 50rem;
+        text-align: justify;
+    }
+
+    .quality_container {
+        flex-direction: row;
+        gap: 2rem;
+    }
+
 }
+
 
 
 

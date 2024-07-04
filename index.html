@@ -14,16 +14,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <title>Web - Agency</title>
 </head>
-<body>
+<body id="accueil">
     <header>
         <div class="header_img_container">
-            <img src="assets/images/logo.png" alt="logo">
+            <a href="#accueil"><img src="assets/images/logo.png" alt="logo"></a>
         </div>
         <nav class="nav_menu">
-                <li><a href="">Accueil</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">Portfolio</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
         </nav>
         <i class="fa-solid fa-bars burger"></i>
     </header>
@@ -44,18 +44,44 @@
             </div>
         </section>
         
-        <section class="services">
-            <div class="services_start">
-            <h2 class="services_title_2">Nos services</h2>
-            <div class="bar_container">
-                <div class="line_left"></div>
-                <div class="blue_circle"></div>
-                <div class="line_right"></div>
-            </div>
-                <p>De taille humaine, notre agence vous accompagne du début à la fin de votre projet.
+        <section class="services" id="services">
+            <div class="services_top_content">
+                <h2 class="services_title_2">Nos services</h2>
+                <div class="bar_container">
+                    <div class="line_left"></div>
+                    <div class="blue_circle"></div>
+                    <div class="line_right"></div>
+                </div>
+                <p class="services_text">De taille humaine, notre agence vous accompagne du début à la fin de votre projet.
                     Nos experts vous aident à optimiser l'expérience utilisateur et tirer le meilleur
-                    potentiel de chaque support, du web au mobile.
-                </p>
+                    potentiel de chaque support, du web au mobile.</p>
+            </div>
+            <div class="services_main_content">
+                <div class="img_services_container">
+                    <img src="assets/images/main-feature.png" alt="Ecran d'ordinateur">
+                </div>
+                <div class="services_right_content">
+                    <div class="quality_container">
+                        <i class="fa-solid fa-chart-line services_logo"></i>
+                        <div class="services_text_container">
+                            <h3>UX design</h3>
+                            <p>Une équipe passionée qui place l'utilisateur final au centre de sa démarche pour une technologie plus humaine.</p>
+                        </div>
+                    </div>
+                    <div class="quality_container">
+                        <i class="fa-sharp fa-solid fa-cubes services_logo"></i>
+                        <div class="services_text_container">
+                            <h3>UI design</h3>
+                            <p>Une interface optimisée qui permet à votre site de rester à la page au gré des évolutions techniques et des nouveaux usages. </p>
+                        </div>
+                    </div>
+                    <div class="quality_container">
+                            <i class="fa-solid fa-chart-pie services_logo"></i>
+                        <div class="services_text_container">
+                            <h3>SEO</h3>
+                            <p>Nos experts en référencement vous permettent d'améliorer le positionnement de votre site afin d'augmenter votre convertion.</p>
+                        </div>
+                    </div>
             </div>
         </section>
     </main>
