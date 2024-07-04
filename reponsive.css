@@ -1,18 +1,41 @@
+
+/* GLOBAL STYLE */
+
+@media screen and (min-width:480px) {
+    .title_2 {
+        font-size: 4rem;
+        /* margin-top: 10rem; */
+}
+
+    main {
+        display: flex;
+        flex-direction: column;
+        row-gap: 5rem;
+}
+}
+
 /* HEADER */
 
 @media screen and (min-width:480px) {
-    .nav_menu {
-        display:flex;
-        justify-content: space-between;
-        width: 35%;
+
+    .header nav {
+        display: flex;
+        max-width:50%;
     }
 
-    .nav_menu li a {
+    .nav_menu {
+        display:flex;
+        gap:4rem;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .nav_link {
         color: rgb(104, 104, 104);
         font-size: 2rem;
     }
 
-    .nav_menu li a:hover {
+    .nav_link:hover {
         color:rgb(37, 175, 243);
     }
 
@@ -41,15 +64,18 @@
 
     .slide_left {
         position: absolute;
-        right: 30rem;
+        left: 4rem;
+        top: 45%;
     }
 
     .slide_right {
         position: absolute;
-        left:90rem;
+        right: 4rem;
+        top: 45%;
     }
 
-    .button_primary {  animation-name: grow;
+    .button_primary {  
+    animation-name: grow;
     transition: all 0.250s ease-in-out ;
     }
 
@@ -57,6 +83,9 @@
         padding:1rem 2rem;
     }
     
+    .hero_img_container {
+        position: relative;
+    }
 
 
 }
@@ -71,10 +100,6 @@
 
     .line_right {
         width: 20%;
-    }
-
-    .services_title_2 {
-        font-size: 4rem;
     }
 
     .bar_container {
@@ -109,6 +134,25 @@
         gap: 2rem;
     }
 
+}
+
+/* SECTION PROJECT  */
+
+@media screen and (min-width:480px) {
+    
+
+    .nav_projets {
+        flex-direction: row;
+    }
+    
+    .portfolio {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(2,1fr);
+        grid-gap: 3rem;
+        padding-bottom: 1rem;
+    }
+    
 }
 
 
