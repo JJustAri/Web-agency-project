@@ -220,10 +220,8 @@ h2 {
 .services_logo {
     font-size: 3rem;
     color: rgb(37, 175, 243);
-    background-color: white;
     padding: 2.5rem;
     border-radius: 50%;
-    border: 1px solid gray;
 }
 
 .quality_container {
@@ -233,6 +231,7 @@ h2 {
     align-items: center;
 }
 
+/* ANIMATED CIRCLE  */
 .services_text_container {
     display: flex;
     flex-direction: column;
@@ -246,17 +245,63 @@ h2 {
 }
 
 
-
-
-
-
-.lol {
-    width: 150px;
-    height: 150px;
-    border: 1px solid blue;
-    position: absolute;
+.animation_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 10rem;
+    border: 1px solid gray;
+    flex-shrink: 0;
+    position: relative;
+    border-radius: 50%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
+.circle_rotate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    margin: auto;
+    background-color:rgb(37, 175, 243);
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    -webkit-animation: circle 3s linear infinite;
+    animation: circle 3s linear infinite;
+}
+
+@-webkit-keyframes circle {
+
+    0%{
+        transform: rotate(0deg)translate(-50px);
+    }
+
+    100% {
+        transform: rotate(360deg)translate(-50px)
+        rotate(-360deg);
+    }
+}
+
+/* ANIMATION END */
+
+/* SECTION PROJET */
+
+.projets {
+    background-color: rgb(194, 45, 45);
+    width: 500px;
+}
 
 
 

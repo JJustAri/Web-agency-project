@@ -15,7 +15,7 @@
     .nav_menu li a:hover {
         color:rgb(37, 175, 243);
     }
-    
+
     .burger {
         display: none;
     }
@@ -48,7 +48,17 @@
         position: absolute;
         left:90rem;
     }
+
+    .button_primary {  animation-name: grow;
+    transition: all 0.250s ease-in-out ;
+    }
+
+    .button_primary:hover {
+        padding:1rem 2rem;
+    }
     
+
+
 }
 
 /* SECTION SERVICES */
