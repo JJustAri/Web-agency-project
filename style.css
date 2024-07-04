@@ -89,7 +89,6 @@ header {
     max-width: 27rem;
     line-height: 3rem;
     justify-content: center;
-    margin-top: 10rem;
 }
 
 .hero p {
@@ -345,13 +344,14 @@ h2 {
     display: flex;
     flex-direction: column;
     gap: 3rem;
+    margin-bottom: 5rem;
 }
 
 .caption_logo{
     color:rgb(37, 175, 243);
     font-size: 3rem;
     position: relative;
-    bottom: 2.4rem;
+    bottom: 2.2rem;
     left: 5rem;
 
 }
@@ -385,5 +385,61 @@ figure:hover figcaption{
     bottom: 0;
 }
 
+/* CONTACT */
 
+.iframe_contact {
+    width: 100%;
+    height:50rem;
+    border:0;
+}
 
+.section_contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height:100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
+}
+
+.contact_form {
+    background-color: rgba(238, 237, 237,0.5);
+    position: absolute;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3rem;
+    z-index: 2;
+}
+
+.blue_filter {
+    background-color: rgba(140, 121, 248, 0.342);
+    z-index: 1;
+    position: absolute;
+    width:100%;
+    height: 100%;
+}
+
+.contact_button {
+    width: 50%; 
+    color: whitesmoke;
+    background-color:rgb(37, 175, 243);
+    padding: 1.5rem;
+    border-left: 0;
+    border-top: 0;
+    border-color:rgba(3, 173, 179, 0.521) ;
+    cursor: pointer;
+}
+
+.contact_button:hover {
+    background-color:rgb(3, 173, 179) ;
+    border-color:rgb(37, 175, 243) ;
+}
+
+footer {
+    text-align: center;
+    margin: 3rem;
+}

@@ -155,6 +155,47 @@
     
 }
 
+/* SECTION CONTACT */
+
+@media screen and (min-width:480px) {
+    
+    .contact_form {
+        background-color: rgba(238, 237, 237,0.5);
+        position: absolute;
+        display: flex;
+        width: 35%;
+        flex-direction: column;
+        gap: 2rem;
+        padding: 3rem;
+        right: 2rem;
+        z-index: 2;
+    }
+
+    .contact_button {
+        width: 50%; 
+        color: whitesmoke;
+        background-color:rgb(37, 175, 243);
+        padding: 1.5rem;
+        border-left: 0;
+        border-top: 0;
+        border-color:rgba(3, 173, 179, 0.521) ;
+        cursor: pointer;
+    }
+
+    .contact_button:hover {
+        background-color:rgb(3, 173, 179) ;
+        border-color:rgb(37, 175, 243) ;
+    }
+}
+
+/* FOOTER */
+@media screen and (min-width:480px) {
+footer {
+    text-align: right;
+    margin: 3rem;
+    margin-right: 15rem;
+}
+}
 
 
 
