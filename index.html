@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="Ari Ichoua">
@@ -7,13 +8,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/5b51d1e08b.js" crossorigin="anonymous"></script>
     <link href="style.css" rel="stylesheet">
-    <link href="reponsive.css" rel="stylesheet"> 
+    <link href="reponsive.css" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <title>Web - Agency</title>
 </head>
+
 <body id="accueil">
     <header>
         <div class="header_img_container">
@@ -21,10 +25,35 @@
         </div>
         <nav>
             <ul class="nav_menu">
-                <li><a href="#accueil" class="nav_link">Accueil</a></li>
-                <li><a href="#services" class="nav_link">Services</a></li>
-                <li><a href="#projets" class="nav_link">Portfolio</a></li>
-                <li><a href="#contact" class="nav_link">Contact</a></li>
+                <li class="nav_link_container">
+                    
+                        <a href="#accueil" class="nav_link">Accueil</a>
+                        <span class="border_top"></span>
+                        <span class="border_right"></span>
+                        <span class="border_bottom"></span>
+                        <span class="border_left"></span>
+                </li>
+                <li class="nav_link_container">
+                        <a href="#services" class="nav_link">Services</a>
+                        <span class="border_top"></span>
+                        <span class="border_right"></span>
+                        <span class="border_bottom"></span>
+                        <span class="border_left"></span>
+                </li>
+                <li class="nav_link_container">
+                        <a href="#portfolio" class="nav_link">Portfolio</a>
+                        <span class="border_top"></span>
+                        <span class="border_right"></span>
+                        <span class="border_bottom"></span>
+                        <span class="border_left"></span>
+                </li>
+                <li class="nav_link_container">
+                        <a href="#contact" class="nav_link">Contact</a>
+                        <span class="border_top"></span>
+                        <span class="border_right"></span>
+                        <span class="border_bottom"></span>
+                        <span class="border_left"></span>
+                </li>
             </ul>
         </nav>
         <i class="fa-solid fa-bars burger"></i>
@@ -32,23 +61,25 @@
     <main>
         <section class="hero">
             <div class="hero_img_container">
-            <img src="assets/images/slider/bg1.jpg" alt="image d'un enfant">
-            <i class="fa-solid fa-chevron-right slide_right"></i>
-            <i class="fa-solid fa-chevron-left slide_left"></i>
-            </div>
-            <div class="text_img">
-                <h1 class="hero_title"> <span>webagency</span> : l'agence de tous vos projets!</h1>
-                <p>Vous avez un projet web? La webagency vous aide à le réaliser.</p>
-                <a href="" class="button_primary">Plus d'infos</a>
-                <div class="nav_bar_hero">
-                    <a href="" class="mobile_nav"></a>
-                    <a href="" class="mobile_nav"></a>
-                    <a href="" class="mobile_nav"></a>
+                <img src="assets/images/slider/bg1.jpg" alt="image d'un enfant">
+                <i class="fa-solid fa-chevron-right slide_right"></i>
+                <i class="fa-solid fa-chevron-left slide_left"></i>
+                <div class="hero_filter"></div>
+                <div class="text_img">
+                    <h1 class="hero_title"> <span>webagency</span> : l'agence de tous vos projets!</h1>
+                    <p>Vous avez un projet web? La webagency vous aide à le réaliser.</p>
+                    <a href="" class="button_primary">Plus d'infos</a>
+                    <div class="nav_bar_hero">
+                        <a href="" class="mobile_nav"></a>
+                        <a href="" class="mobile_nav"></a>
+                        <a href="" class="mobile_nav"></a>
+                    </div>
                 </div>
+
             </div>
 
         </section>
-        
+
         <section class="services" id="services">
             <div class="services_top_content">
                 <h2 class="title_2">Nos services</h2>
@@ -57,7 +88,8 @@
                     <div class="blue_circle"></div>
                     <div class="line_right"></div>
                 </div>
-                <p class="services_text">De taille humaine, notre agence vous accompagne du début à la fin de votre projet.
+                <p class="services_text">De taille humaine, notre agence vous accompagne du début à la fin de votre
+                    projet.
                     Nos experts vous aident à optimiser l'expérience utilisateur et tirer le meilleur
                     potentiel de chaque support, du web au mobile.</p>
             </div>
@@ -73,7 +105,8 @@
                         </div>
                         <div class="services_text_container">
                             <h3>UX design</h3>
-                            <p>Une équipe passionée qui place l'utilisateur final au centre de sa démarche pour une technologie plus humaine.</p>
+                            <p>Une équipe passionée qui place l'utilisateur final au centre de sa démarche pour une
+                                technologie plus humaine.</p>
                         </div>
                     </div>
                     <div class="quality_container">
@@ -83,7 +116,8 @@
                         </div>
                         <div class="services_text_container">
                             <h3>UI design</h3>
-                            <p>Une interface optimisée qui permet à votre site de rester à la page au gré des évolutions techniques et des nouveaux usages. </p>
+                            <p>Une interface optimisée qui permet à votre site de rester à la page au gré des évolutions
+                                techniques et des nouveaux usages. </p>
                         </div>
                     </div>
                     <div class="quality_container">
@@ -93,35 +127,38 @@
                         </div>
                         <div class="services_text_container">
                             <h3>SEO</h3>
-                            <p>Nos experts en référencement vous permettent d'améliorer le positionnement de votre site afin d'augmenter votre convertion.</p>
+                            <p>Nos experts en référencement vous permettent d'améliorer le positionnement de votre site
+                                afin d'augmenter votre convertion.</p>
                         </div>
                     </div>
-            </div>
+                </div>
         </section>
         <section class="projets" id="projets">
-        <div class="background_projet">
-            <div class="projets_top_content">
-                <h2 class="title_2">Nos projets</h2>
-                <div class="bar_container">
-                    <div class="line_left"></div>
-                    <div class="blue_circle"></div>
-                    <div class="line_right"></div>
+            <div class="background_projet">
+                <div class="projets_top_content">
+                    <h2 class="title_2">Nos projets</h2>
+                    <div class="bar_container">
+                        <div class="line_left"></div>
+                        <div class="blue_circle"></div>
+                        <div class="line_right"></div>
+                    </div>
+                    <p class="services_text">Beaucoup d'entreprises et particuliers nous ont fais confiance pour leur
+                        projets !
+                        Découvrez une sélection de nos réalisations tendances, modernes et innovantes.</p>
+                    <div class="nav_projets_container">
+                        <ul class="nav_projets">
+                            <li><a href="" class="nav_link">Tous</a></li>
+                            <li><a href="" class="nav_link">Créations</a></li>
+                            <li><a href="" class="nav_link">Corporate</a></li>
+                            <li><a href="" class="nav_link">Portfolio</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <p class="services_text">Beaucoup d'entreprises et particuliers nous ont fais confiance pour leur projets !
-                    Découvrez une sélection de nos réalisations tendances, modernes et innovantes.</p>
-                <div class="nav_projets_container">
-                    <ul class="nav_projets">
-                        <li><a href="" class="nav_link">Tous</a></li>
-                        <li><a href="" class="nav_link">Créations</a></li>
-                        <li><a href="" class="nav_link">Corporate</a></li>
-                        <li><a href="" class="nav_link">Portfolio</a></li>
-                    </ul>
-                </div>
-            </div>
                 <ul class="portfolio">
                     <li>
                         <figure>
-                            <img src="assets/images/portfolio/01.jpg" alt="image de visage avec lunette" class="portfolio_img">
+                            <img src="assets/images/portfolio/01.jpg" alt="image de visage avec lunette"
+                                class="portfolio_img">
                             <figcaption><i class="fa-solid fa-eye caption_logo"></i></figcaption>
                         </figure>
                     </li>
@@ -145,48 +182,53 @@
                     </li>
                     <li>
                         <figure>
-                            <img src="assets/images/portfolio/05.jpg" alt="deux sac noir et blanc" class="portfolio_img">
+                            <img src="assets/images/portfolio/05.jpg" alt="deux sac noir et blanc"
+                                class="portfolio_img">
                             <figcaption><i class="fa-solid fa-eye caption_logo"></i></figcaption>
-                        </figure></li>
+                        </figure>
+                    </li>
                     <li>
                         <figure>
                             <img src="assets/images/portfolio/06.jpg" alt="paysage de desert" class="portfolio_img">
                             <figcaption><i class="fa-solid fa-eye caption_logo"></i></figcaption>
                         </figure>
                     </li>
-                    <li><figure>
+                    <li>
+                        <figure>
                             <img src="assets/images/portfolio/07.jpg" alt="image de pinceau" class="portfolio_img">
                             <figcaption><i class="fa-solid fa-eye caption_logo"></i></figcaption>
                         </figure>
                     </li>
                     <li>
                         <figure>
-                            <img src="assets/images/portfolio/08.jpg" alt="image accesoire de travail" class="portfolio_img">
+                            <img src="assets/images/portfolio/08.jpg" alt="image accesoire de travail"
+                                class="portfolio_img">
                             <figcaption><i class="fa-solid fa-eye caption_logo"></i></figcaption>
                         </figure>
                     </li>
                 </ul>
             </div>
-        </div>
+            </div>
         </section>
         <section id="contact">
             <div class="section_contact">
-                <iframe class="iframe_contact" title="adresse sur google map" loading="lazy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.2216100979736!2d2.3472506770813126!3d48.87305177133414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145ccb3091%3A0x9495beee8c96ec27!2s25%20Rue%20d&#39;Hauteville%2C%2075010%20Paris!5e0!3m2!1sfr!2sfr!4v1720113387262!5m2!1sfr!2sfr">
+                <iframe class="iframe_contact" title="adresse sur google map" loading="lazy"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.2216100979736!2d2.3472506770813126!3d48.87305177133414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145ccb3091%3A0x9495beee8c96ec27!2s25%20Rue%20d&#39;Hauteville%2C%2075010%20Paris!5e0!3m2!1sfr!2sfr!4v1720113387262!5m2!1sfr!2sfr">
                 </iframe>
                 <div class="blue_filter"></div>
                 <form class="contact_form" action="" method="get">
                     <h3> Contact info</h3>
                     <div>
-                    <h4>WebAgency SAS</h4>
-                    <address>
-                        <p>25 rue d'Hauteville 75010 PARIS</p>
-                        <p>Tel: +33102030405</p>
-                    </address>
+                        <h4>WebAgency SAS</h4>
+                        <address>
+                            <p>25 rue d'Hauteville 75010 PARIS</p>
+                            <p><a href="tel:+33102030405">Tel: +33102030405</a></p>
+                        </address>
                     </div>
-                    <input type="text" name="name" placeholder="Nom">
-                    <input type="email" name="email" placeholder="Email">
-                    <input type="text" name="sujet" placeholder="Sujet">
-                    <textarea placeholder="Votre message..." rows="5"></textarea>
+                    <input type="text" name="name" placeholder="Nom" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <input type="text" name="sujet" placeholder="Sujet" required>
+                    <textarea placeholder="Votre message..." rows="5" required></textarea>
                     <input type="submit" value="Send message" class="contact_button">
                 </form>
             </div>
@@ -195,6 +237,6 @@
     <footer>
         &copy; COPYRIGHT 2024 - Web agency - All Right Reserved.
     </footer>
-    
 </body>
+
 </html>
